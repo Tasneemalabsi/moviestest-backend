@@ -39,7 +39,8 @@ async function handleGetMovieData (req,res) {
 
     })
     res.send(arr);
-    // seedMovieData()
+    arr=[];
+//    seedMovieData(); 
 
 }
 
@@ -54,6 +55,7 @@ function seedMovieData () {
     })
 
 }
+
 
 async function handleAddingData(req,res){
 try {
